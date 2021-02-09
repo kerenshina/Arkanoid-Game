@@ -1,0 +1,10 @@
+# default values for blocks
+default height:25 width:50 stroke:color(black)
+
+# block definitions
+bdef symbol:s hit_points:1 fill:image(block_images/seaweed.png)
+bdef symbol:c hit_points:2 fill:image(block_images/seaweed.png) fill-2:image(block_images/coral.png)
+bdef symbol:f hit_points:3 fill:image(block_images/seaweed.png) fill-2:image(block_images/coral.png) fill-3:image(block_images/fish.png)
+
+# spacers definitions
+sdef symbol:- width:50
